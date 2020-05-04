@@ -1,8 +1,10 @@
+{% load static %}
+
 <html>
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {% load static %}
     <link href="{% static 'css/base.css' %}" rel="stylesheet", type="text/css">
+    <link href="{% static 'css/home.css' %}" rel="stylesheet", type="text/css">
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
       rel="stylesheet"
@@ -66,30 +68,31 @@
     
             <li class="nav-item">
             <a href="#" class="nav-link">
-                <svg
-                aria-hidden="true"
-                focusable="false"
-                data-prefix="fad"
-                data-icon="alien-monster"
-                role="img"
+                <svg 
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 576 512"
-                class="svg-inline--fa fa-alien-monster fa-w-18 fa-9x"
-                >
-                <g class="fa-group">
-                    <path
-                    fill="currentColor"
-                    d="M560,128H528a15.99954,15.99954,0,0,0-16,16v80H480V176a15.99954,15.99954,0,0,0-16-16H416V96h48a16.00079,16.00079,0,0,0,16-16V48a15.99954,15.99954,0,0,0-16-16H432a15.99954,15.99954,0,0,0-16,16V64H368a15.99954,15.99954,0,0,0-16,16v48H224V80a15.99954,15.99954,0,0,0-16-16H160V48a15.99954,15.99954,0,0,0-16-16H112A15.99954,15.99954,0,0,0,96,48V80a16.00079,16.00079,0,0,0,16,16h48v64H112a15.99954,15.99954,0,0,0-16,16v48H64V144a15.99954,15.99954,0,0,0-16-16H16A15.99954,15.99954,0,0,0,0,144V272a16.00079,16.00079,0,0,0,16,16H64v80a16.00079,16.00079,0,0,0,16,16h48v80a16.00079,16.00079,0,0,0,16,16h96a16.00079,16.00079,0,0,0,16-16V432a15.99954,15.99954,0,0,0-16-16H192V384H384v32H336a15.99954,15.99954,0,0,0-16,16v32a16.00079,16.00079,0,0,0,16,16h96a16.00079,16.00079,0,0,0,16-16V384h48a16.00079,16.00079,0,0,0,16-16V288h48a16.00079,16.00079,0,0,0,16-16V144A15.99954,15.99954,0,0,0,560,128ZM224,320H160V224h64Zm192,0H352V224h64Z"
-                    class="fa-secondary"
-                    ></path>
-                    <path
-                    fill="currentColor"
-                    d="M160,320h64V224H160Zm192-96v96h64V224Z"
-                    class="fa-primary"
-                    ></path>
+                xmlns:xlink="http://www.w3.org/1999/xlink" 
+                version="1.1" 
+                x="0px" 
+                y="0px" 
+                viewBox="0 0 100 125" 
+                style="enable-background:new 0 0 100 100;" 
+                xml:space="preserve">
+                <g>
+                    <g class="fa-group">
+                        <path
+                        fill="currentColor"
+                        d="M91.8,88.7H15.8c-2.4,0-4.4-2-4.4-4.4V8.2C11.3,6.4,9.9,5,8.2,5S5,6.4,5,8.2v76.1C5,90.2,9.8,95,15.8,95h76.1    c1.8,0,3.2-1.4,3.2-3.2S93.6,88.7,91.8,88.7z"
+                        class="fa-secondary"
+                        />
+                        <circle cx="28.7" cy="69" r="5.4" fill="currentColor" class="fa-secondary"/>
+                        <circle cx="48.5" cy="40.1" r="5.4" fill="currentColor" class="fa-secondary"/>
+                        <circle cx="55.4" cy="61.4" r="5.4" fill="currentColor" class="fa-secondary"/>
+                        <circle cx="70.6" cy="43.9" r="5.4" fill="currentColor" class="fa-secondary"/>
+                        <circle cx="78.9" cy="23.4" r="5.4" fill="currentColor" class="fa-secondary"/>
+                    </g>
                 </g>
                 </svg>
-                <span class="link-text">Heatmap</span>
+                <span class="link-text">ScatterPlot</span>
             </a>
             </li>
     
