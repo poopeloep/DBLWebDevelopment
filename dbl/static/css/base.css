@@ -55,7 +55,7 @@ main {
 }
 
 .nav-item:last-child {
-  /*margin-top: auto;*/
+  margin-top: auto;
 }
 
 .nav-link {
@@ -86,7 +86,7 @@ main {
 }
 
 .fa-primary {
-  color:blue; 
+  color:purple; 
 }
 
 .fa-secondary {
