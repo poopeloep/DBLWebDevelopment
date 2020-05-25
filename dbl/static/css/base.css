@@ -54,7 +54,7 @@ main {
 }
 
 .nav-item:last-child {
-  /*margin-top: auto;*/
+  margin-top: auto;
 }
 
 .nav-link {
