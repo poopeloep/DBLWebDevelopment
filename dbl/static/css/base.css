@@ -1,12 +1,12 @@
 :root {
   font-size: 16px;
   font-family: 'Open Sans';
-  --text-primary: #b6b6b6;
-  --text-secondary: #ececec;
+  --text-primary: white;
+  --text-secondary: yellow;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
-}
+} 
 
 body {
   color: black;
@@ -24,6 +24,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
+
   background: #6649b8;
 }
 
@@ -54,7 +55,7 @@ main {
 }
 
 .nav-item:last-child {
-  /*margin-top: auto;*/
+  margin-top: auto;
 }
 
 .nav-link {
@@ -85,11 +86,19 @@ main {
 }
 
 .fa-primary {
-  color: #ff7eee;
+  color:purple; 
 }
 
 .fa-secondary {
-  color: #df49a6;
+  color: red;
+}
+
+.fa-third {
+  color: green;
+}
+
+.fa-fourth {
+  color: darkorange;
 }
 
 .fa-primary,
